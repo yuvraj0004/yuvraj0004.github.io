@@ -23,7 +23,7 @@ header, footer{
 }
 
 li:nth-child(odd){
-    background-color: rgb(236, 236, 12);
+    background-color:rgb(117, 117, 7);
 }
 
 nav > ul{
