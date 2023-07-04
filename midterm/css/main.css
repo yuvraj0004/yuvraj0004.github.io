@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.wrapper{
+    background-color: white;
+    max-width: 1024px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+body{
+    background-color: darkcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+
+p{
+    text-align: justify;
+}
+
+.content, footer{
+    margin: auto 21px;
+}
+
+footer{
+    padding-bottom: 4px;
+}
+
+#banner-image{
+    height: 345px;
+    object-fit: cover;
+    object-position: 50% 70%;
+}
+
+.hero-banner{
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 76%;
+    width: 100%;
+
+    text-align: center;
+    color: azure;
+}
+
+.navigation li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation ul{
+    padding-left: 0;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.navigation li{
+    display: inline-block;
+    width: 32%;
+}
+.navigation li{
+    border-right: 1px solid black;
+}
+
+.navigation li:nth-child(3) {
+    border: none;
+}
+
+img#fl-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.facts{
+    padding-left: 21px;
+}
+
+.form input, #comment{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.radio input{
+    display: inline;
+    width: auto;
+    margin-right: 55px;
+}
+
+.form{
+    border: 1px solid black;
+    padding: 21px;
+}
+
+.button{
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+footer{
+    text-align: right;
+}
