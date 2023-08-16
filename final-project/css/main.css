@@ -1,0 +1,557 @@
+/* Reset and Normalise */
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+blockquote,q {
+    quotes: none;
+}
+
+/* used blockquote here for long quotations */
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+
+.bg-bl {
+    background-color: black;
+}
+
+/* Used header wrapper here */
+
+header.item .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: #c78c06;
+    font-size: 1.44rem;
+    display: inline-block;
+    padding: 1em 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #c78c06;
+    color: black;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.search-container {
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+}
+
+/* Setting search icon settings */
+
+.search {
+    width: 95%;
+    padding: 12px;
+    font-size: 1.55rem;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.search-icon {
+    font-size: 2.5rem;
+    color: #c78c06;
+    border: 2px solid #c78c06;
+    background-color: black;
+    margin-bottom: 15px;
+}
+
+
+.bg-img1 {
+    background-image: url("../images/main-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.bg-img1 h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    /* padding: 20px; */
+    line-height: 1.5;
+    color: white;
+
+}
+
+.bg-img1 p {
+    color: white;
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+.bg-gr {
+    background-color: rgba(34, 34, 34, 0.6);
+
+}
+
+.bg-img1 a {
+    text-decoration: none;
+    background-color: #c78c06;
+    color: black;
+    padding: 20px 0px 20px 20px;
+    font-size: 1.8rem;
+    display: inline-flex;
+    align-items: center;
+    margin: 20px 0;
+
+
+}
+
+.bg-img1 a span {
+    font-size: 2.7em;
+
+}
+
+/* Organising setting about images size and styles */
+
+#about {
+    background-color: #ffe6ac;
+
+
+}
+
+#about img {
+    width: 100%;
+    padding-top: 15px;
+}
+
+
+#about h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+#about p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+
+}
+
+
+#services p {
+    line-height: 1.5;
+    font-size: 1.3rem;
+    margin: 20px;
+}
+
+#services h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+.bg-or {
+    background-color: #ffe6ac;
+
+}
+
+.service img {
+    width: 100%;
+
+}
+
+.service h3 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin: 30px 20px;
+}
+
+/* Setting measurement to make it stable */
+
+#services a {
+
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    padding: 20px 0px 20px 20px;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    /* max-width: 30%;   */
+}
+
+#services a span {
+    font-size: 2.7em;
+}
+
+.a-ma {
+    display: flex;
+
+}
+
+.service {
+    display: grid;
+    gap: 20px;
+}
+
+/* Vision image observations and settings */
+.bg-vi {
+    background-image: url("../images/vision.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.bg-vi h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 30px 20px;
+    color: white;
+}
+
+.bg-vi p {
+    display: flex;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    margin: 20px;
+    color: white;
+
+}
+
+.bg-vi a {
+    text-decoration: none;
+    background-color: #162A42;
+    color: white;
+    padding: 20px 0px 20px 20px;
+    font-size: 1.8rem;
+    display: inline-flex;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #c78c06;
+
+
+}
+
+.bg-vi a span {
+    font-size: 2.7em;
+
+}
+
+/* Setting team */
+
+#team h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+#team img {
+    width: 100%;
+    display: block;
+}
+
+#team h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 0px 0px 15px 20px;
+
+}
+
+#team h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 4px solid #c78c06;
+    margin: 0px 20px;
+}
+
+#team p {
+
+    line-height: 1.5;
+    font-size: 1.2rem;
+    margin: 20px;
+
+
+}
+
+.p-ma {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#contact h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 25px 0px;
+}
+
+#contact h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+#contact form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+#contact label {
+    display: block;
+
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+#contact input {
+    width: 100%;
+    height: 2rem;
+    margin: 10px 0px;
+}
+
+#contact textarea {
+    width: 96%;
+    padding: 20px;
+    resize: vertical;
+}
+
+#contact button {
+    padding: 10px 0px;
+    background-color: #c78c06;
+    color: black;
+    border: none;
+    cursor: pointer;
+    max-width: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#contact button:hover {
+    color: #c78c06;
+    background-color: black;
+}
+
+#contact table {
+    width: 100%;
+
+}
+
+#contact td {
+    font-size: 1.3rem;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #222;
+}
+
+#contact th {
+    font-size: 1.3rem;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #222;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+footer {
+    color: #c78c06;
+    padding: 20px;
+    line-height: 2.5;
+    font-size: 1.1rem;
+}
+
+footer a {
+    color: #c78c06;
+}
+
+/* media query begins */
+
+
+@media screen and (min-width: 760px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    header.item .wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header nav ul {
+        flex-direction: row;
+    }
+
+    header nav ul li {
+        padding: 1.5rem;
+    }
+
+    .bg-img1 {
+        height: 600px;
+        padding: 100px;
+    }
+
+    h1 {
+        padding-top: 80px;
+    }
+
+    #about .wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #about img {
+        width: 50%;
+        padding: 20px;
+
+    }
+
+    .service {
+        grid-template-columns: repeat(6, 1fr);
+
+
+    }
+
+    .service :nth-child(1) {
+        grid-column: 1 / 4;
+
+    }
+
+    .service :nth-child(2) {
+        grid-column: 4 / 7;
+
+    }
+
+    .service :nth-child(3) {
+        grid-column: 1 / 3;
+
+    }
+
+    .service :nth-child(4) {
+        grid-column: 3 / 5;
+
+    }
+
+    .service :nth-child(5) {
+        grid-column: 5 / 7;
+
+    }
+
+    .team {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .team .john-img {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+
+    .team .john {
+        grid-column: 2 / 3;
+        grid-row: 1;
+    }
+
+    .team .rite-img {
+        grid-column: 2 / 3;
+        grid-row: 2;
+    }
+
+    .team .rite {
+        grid-column: 1 / 2;
+        grid-row: 2;
+    }
+
+    .grid-con {
+        display: grid;
+        gap: 2rem;
+        margin: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "s l"
+            "h h"
+        ;
+    }
+
+    .grid-con .form {
+        grid-area: s;
+    }
+
+    .grid-con .location {
+        grid-area: l;
+    }
+
+    .grid-con .table {
+        grid-area: h;
+    }
+
+
+
+
+
+
+}
